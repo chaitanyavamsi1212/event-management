@@ -123,7 +123,6 @@ async function handleApprove(id, btn) {
     showError(err.message);
   }
 }
-
 async function handleRevoke(id, btn) {
   btn.disabled = true;
   btn.textContent = 'Revoking…';
