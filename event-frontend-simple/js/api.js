@@ -1,6 +1,6 @@
 // Change this if your backend runs somewhere other than localhost:3000
-// const API_URL = 'https://event-management-backend-jnpc.onrender.com';
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://event-management-mvg8.onrender.com';
+// const API_URL = 'http://localhost:3000';
 function getToken() {
   return localStorage.getItem('token');
 }
